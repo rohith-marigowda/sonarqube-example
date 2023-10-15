@@ -1,5 +1,5 @@
 pipeline{
-    agent {label 'jfrog'}
+    agent {label 'slave2'}
     stages{
        stage('Git Checkout Stage'){
             steps{
